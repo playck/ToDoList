@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: lime;
+    padding: 5px 0;
+}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 700px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.addTask {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+input {
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+.addTask > button {
+    width: 10%;
+    margin-left: 5px;
+    background: #222;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    width: 100%;
+    font-size: 25px;
+    background-color: #FFA6C5;
+    margin: 5px 0;
+    padding: 18px;
+
+}
+
+ul li i {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+li button {
+    float: right;
+    font-size: 25px;
+    line-height: 25px;
+    margin-right: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Completed {
+    margin-top: 100px;
+}
+
+.Completed li {
+    background-color: #00ff62 ;
+}
